@@ -169,6 +169,7 @@ jobs:
             ["android14-5.15"]="${{ inputs.android14-5_15_susfs_branch_or_commit }}"
             ["android14-6.1"]="${{ inputs.android14-6_1_susfs_branch_or_commit }}"
             ["android15-6.6"]="${{ inputs.android15-6_6_susfs_branch_or_commit }}"
+            ["android16-5.15"]="${{ inputs.android16-5_15_susfs_branch_or_commit }}"
           )
           # Only validate mapping presence; allow empty string value to be passed through.
           if [[ -z "${map[$key]+_exists}" ]]; then
